@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/stock_wallet
-    username: Stock_DB
-    password: Stock1234
+    url: jdbc:postgresql://localhost:5433/stock_wallet
+    username: admin
+    password: 54321
 
   jpa:
     hibernate:

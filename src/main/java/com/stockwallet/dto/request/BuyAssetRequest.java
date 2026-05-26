@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class CreateTransactionRequest {
+public class BuyAssetRequest {
 
     private Long userId;
 
@@ -14,8 +14,4 @@ public class CreateTransactionRequest {
     private Double quantity;
 
     private Double price;
-
-    private Double fee;
-
-    private String sourcePlatform;
 }
